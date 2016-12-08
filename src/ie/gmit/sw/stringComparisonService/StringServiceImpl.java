@@ -7,7 +7,7 @@ public class StringServiceImpl extends UnicastRemoteObject implements StringServ
 	private static final long serialVersionUID = 1L;
 	private Resultator res;
 
-	protected StringServiceImpl() throws RemoteException {
+	public StringServiceImpl() throws RemoteException {
 	}
 
 	public Resultator compare(String s, String t, String algo) throws RemoteException {
