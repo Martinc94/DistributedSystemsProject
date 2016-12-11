@@ -9,8 +9,6 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentMap;
 import java.util.concurrent.LinkedBlockingQueue;
 
-import ie.gmit.sw.stringComparisonService.StringService;
-
 public class QueueManager {
 	private StringService ss;
 	//Queues
